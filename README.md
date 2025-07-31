@@ -1,8 +1,10 @@
 📌 Project Summary
+
 This project explores trends in U.S. domestic air travel using 245,000+ records of route-level data.
 It combines Python-based data analysis, statistical hypothesis testing, and an interactive Power BI dashboard to support real-world business decisions in the aviation industry.
 
 🎯 Objectives
+
 Analyze air travel demand and average fare trends over time
 
 Identify peak travel quarters and seasonal effects
@@ -16,6 +18,7 @@ Conduct statistical hypothesis tests to validate insights
 Visualize results via an interactive Power BI dashboard
 
 🛠️ Tools & Technologies
+
 Tool	Purpose
 Python (Pandas, Seaborn, Scipy)	Data cleaning, EDA, statistical testing
 Power BI	Dashboard creation & interactive reporting
@@ -23,9 +26,6 @@ Jupyter Notebook	Step-by-step data analysis
 GitHub	Project version control and showcase
 
 📂 Repository Structure
-bash
-Copy
-Edit
 Airline-Market-Analysis/
 │
 ├── data/                     # Cleaned & derived datasets (CSV)
@@ -50,16 +50,23 @@ Airline-Market-Analysis/
 ├── notebook.ipynb            # Full Python analysis
 ├── statistical_analysis.md   # Markdown summary of all 4 hypothesis tests
 └── README.md                 # This file
+
 📊 Key Findings
+
 Hypothesis	Result
+
 LCC fares < Large Carrier fares	✅ Significant (p < 0.001)
+
 Q3 > Q1 passenger volume	✅ Significant (p = 0.0051)
+
 Route Distance ↘ Fare per Mile	✅ Negative correlation (r = -0.598)
+
 Post-2019 growth in WN share	❌ Not significant (p = 0.2883)
 
 📎 See full statistical analysis
 
 📈 Power BI Dashboard Overview
+
 Each page of the dashboard answers a key business question.
 
 Page 1: Executive Summary
@@ -105,6 +112,7 @@ Fare/Passenger KPIs
 📸 View dashboard screenshots
 
 💼 Business Recommendations
+
 🛫 High-Demand Routes: Increase frequency on top routes to match demand.
 
 💸 Fare Gaps: Monitor pricing where large carriers are uncompetitive.
